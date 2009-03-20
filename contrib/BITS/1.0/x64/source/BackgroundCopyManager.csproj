@@ -1,0 +1,44 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="local" ProjectVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="ab35e0de-fab0-4230-851e-18c4df9d742a">
+    <Build>
+      <Settings AssemblyName="BackgroundCopyManager" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library">
+        <Config Name="Debug" AllowUnsafeBlocks="true" DefineConstants="DEBUG;TRACE" DebugSymbols="true" IncrementalBuild="false" NoStdLib="false" Optimize="false" OutputPath="bin\Debug\" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="true" DefineConstants="TRACE" DebugSymbols="false" IncrementalBuild="false" NoStdLib="false" Optimize="true" OutputPath="bin\Release\" WarningLevel="4" />
+      </Settings>
+      <References />
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Global.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BackgroundCopyManagerClass.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BackgroundCopyManager.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IBackgroundCopyManager.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IUnknown.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\GUID.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\__MIDL___MIDL_itf_Bits_0003_0001_0001.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BG_JOB_TYPE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\__MIDL_IBackgroundCopyJob_0003.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IBackgroundCopyJob.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\_BG_FILE_INFO.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IEnumBackgroundCopyFiles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IBackgroundCopyFile.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\_BG_FILE_PROGRESS.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\_BG_JOB_PROGRESS.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\_BG_JOB_TIMES.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\_FILETIME.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BG_JOB_STATE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\__MIDL_IBackgroundCopyJob_0002.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IBackgroundCopyError.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BG_ERROR_CONTEXT.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\__MIDL_IBackgroundCopyError_0001.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BG_JOB_PRIORITY.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\__MIDL_IBackgroundCopyJob_0001.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\BG_JOB_PROXY_USAGE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\__MIDL_IBackgroundCopyJob_0004.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IEnumBackgroundCopyJobs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="BackgroundCopyManager\IBackgroundCopyCallback.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

@@ -1,0 +1,5 @@
+c:\bits\standard\x64>tlbimp Bits.tlb /machine:X64
+Microsoft (R) .NET Framework Type Library to Assembly Converter 3.5.30729.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Type library imported to BackgroundCopyManager.dll

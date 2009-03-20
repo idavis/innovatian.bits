@@ -1,0 +1,7 @@
+c:\bits\2.5\x64>tlbimp bits2_5.tlb /machine:X64
+Microsoft (R) .NET Framework Type Library to Assembly Converter 3.5.30729.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+TlbImp : warning TI0000 : At least one of the arguments for 'IBackgroundCopyJobHttpOptions.GetClientCertificate' cannot be marshaled by the runtime marshaler.Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+
+Type library imported to BackgroundCopyManager2_5.dll
