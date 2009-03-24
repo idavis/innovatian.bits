@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     [ComImport]
     [Guid( "5CE34C0D-0DC9-4C1F-897C-DAA1B78CEE7C" )]

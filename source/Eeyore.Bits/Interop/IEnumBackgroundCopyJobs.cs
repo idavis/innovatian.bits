@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// Use the IEnumBackgroundCopyJobs interface to enumerate the list of jobs

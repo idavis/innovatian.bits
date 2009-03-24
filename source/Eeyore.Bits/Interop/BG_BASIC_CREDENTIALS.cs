@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// The BG_BASIC_CREDENTIALS structure identifies the user name and password

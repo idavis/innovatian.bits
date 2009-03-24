@@ -6,7 +6,7 @@ using System.Text;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     internal static class NativeMethods
     {

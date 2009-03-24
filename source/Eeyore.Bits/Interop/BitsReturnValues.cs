@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     [SuppressMessage( "Microsoft.Design", "CA1028:EnumStorageShouldBeInt32" )]
     [SuppressMessage( "Microsoft.Naming", "CA1717:OnlyFlagsEnumsShouldHavePluralNames" )]

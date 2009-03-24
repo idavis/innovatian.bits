@@ -1,17 +1,38 @@
-ï»¿#region Using Directives
+#region License
+
+//
+// Copyright © 2009 Ian Davis <ian.f.davis@gmail.com>
+// 
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+#endregion
+
+#region Using Directives
 
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
-using Eeyore.Bits.Net.Adapters;
-using Eeyore.Bits.Net.Interop;
-using Eeyore.Commons.ObjectModel;
+using Eeyore.Bits.Adapters;
+using Eeyore.Bits.Enumerations;
+using Eeyore.Bits.Interop;
+using Eeyore.Bits.ObjectModel;
 
 #endregion
 
-namespace Eeyore.Bits.Net
+namespace Eeyore.Bits
 {
     /// <summary>
     /// A managed wrapper around the IBackgroundCopyJob providing a useful and
@@ -414,7 +435,7 @@ namespace Eeyore.Bits.Net
         /// Adds the file to the job
         /// </summary>
         /// <param name="bitsFileInfo">The bits file info.</param>
-        public void AddFile ( BitsFileInfo bitsFileInfo )
+        public void AddFile( BitsFileInfo bitsFileInfo )
         {
             if ( bitsFileInfo == null )
             {

@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// The BG_AUTH_CREDENTIALS structure identifies the target (proxy or

@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// BG_NOTIFY_FLAGS specifies the events that you want to receive.

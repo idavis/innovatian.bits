@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// Creates transfer jobs, retrieves an enumerator object that contains the

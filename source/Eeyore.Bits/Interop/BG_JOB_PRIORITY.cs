@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// The BG_JOB_PRIORITY enumeration defines the constant values that specify

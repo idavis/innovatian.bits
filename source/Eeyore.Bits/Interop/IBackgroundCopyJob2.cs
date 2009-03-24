@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     ///  Use the IBackgroundCopyJob2 interface to retrieve reply data from an

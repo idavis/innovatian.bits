@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// The BG_JOB_REPLY_PROGRESS structure provides progress information

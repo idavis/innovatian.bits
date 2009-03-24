@@ -1,4 +1,4 @@
-﻿namespace Eeyore.Bits.Net.Interop
+﻿namespace Eeyore.Bits.Interop
 {
     internal enum _SID_NAME_USE
     {

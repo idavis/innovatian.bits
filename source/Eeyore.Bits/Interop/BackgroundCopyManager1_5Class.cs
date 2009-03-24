@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     [BitsVersion( BitsVersion.Bits_15 )]
     [ComImport]

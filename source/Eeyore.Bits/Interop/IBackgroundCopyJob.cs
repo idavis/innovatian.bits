@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// Use the IBackgroundCopyJob interface to add files to the job, set the

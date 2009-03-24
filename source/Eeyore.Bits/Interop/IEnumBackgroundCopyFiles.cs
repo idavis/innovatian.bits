@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// Use the IEnumBackgroundCopyFiles interface to enumerate the files that a

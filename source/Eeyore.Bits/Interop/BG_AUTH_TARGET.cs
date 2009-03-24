@@ -1,4 +1,4 @@
-﻿namespace Eeyore.Bits.Net.Interop
+﻿namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// The BG_AUTH_TARGET enumeration defines the constant values that specify

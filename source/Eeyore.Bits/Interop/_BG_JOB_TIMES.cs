@@ -6,7 +6,7 @@ using FILETIME=System.Runtime.InteropServices.ComTypes.FILETIME;
 
 #endregion
 
-namespace Eeyore.Bits.Net.Interop
+namespace Eeyore.Bits.Interop
 {
     /// <summary>
     /// The BG_JOB_TIMES structure provides job-related time stamps.
