@@ -1,4 +1,4 @@
-﻿#region Using Directives
+#region Using Directives
 
 using System;
 using System.Runtime.CompilerServices;
@@ -8,14 +8,14 @@ using System.Runtime.InteropServices;
 
 namespace Eeyore.Bits.Interop
 {
-    [BitsVersion( BitsVersion.Bits_15 )]
+    [BitsVersion( BitsVersion.Bits_25 )]
     [ComImport]
     [ClassInterface( ClassInterfaceType.None )]
     [TypeLibType( TypeLibTypeFlags.FCanCreate )]
-    [Guid( "F087771F-D74F-4C1A-BB8A-E16ACA9124EA" )]
-    internal class BackgroundCopyManager1_5Class : BackgroundCopyManager1_5
+    [Guid( "03CA98D6-FF5D-49B8-ABC6-03DD84127020" )]
+    internal class BackgroundCopyManager2_5Class : BackgroundCopyManager2_5
     {
-        #region BackgroundCopyManager1_5 Members
+        #region BackgroundCopyManager2_5 Members
 
         /// <summary>
         /// Creates a job.

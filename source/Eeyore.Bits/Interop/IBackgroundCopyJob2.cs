@@ -25,7 +25,7 @@ namespace Eeyore.Bits.Interop
     /// </summary>
     [ComImport]
     [Guid( "54B50739-686F-45EB-9DFF-D6A9A0FAA9AF" )]
-    [InterfaceType( (short) 1 )]
+    [InterfaceType( ComInterfaceType.InterfaceIsIUnknown )]
     [ComConversionLoss]
     [BitsVersion( BitsVersion.Bits_15 )]
     internal interface IBackgroundCopyJob2 : IBackgroundCopyJob

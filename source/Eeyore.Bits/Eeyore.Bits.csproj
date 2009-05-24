@@ -57,7 +57,6 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\BitsCallbackAdapter.cs" />
@@ -77,30 +76,50 @@
     <Compile Include="Interop\BackgroundCopyManager.cs" />
     <Compile Include="Interop\BackgroundCopyManager1_5.cs" />
     <Compile Include="Interop\BackgroundCopyManager1_5Class.cs" />
+    <Compile Include="Interop\BackgroundCopyManager2_0.cs" />
+    <Compile Include="Interop\BackgroundCopyManager2_0Class.cs" />
+    <Compile Include="Interop\BackgroundCopyManager2_5.cs" />
+    <Compile Include="Interop\BackgroundCopyManager2_5Class.cs" />
+    <Compile Include="Interop\BackgroundCopyManager3_0.cs" />
+    <Compile Include="Interop\BackgroundCopyManager3_0Class.cs" />
     <Compile Include="Interop\BackgroundCopyManagerClass.cs" />
     <Compile Include="Interop\BG_AUTH_CREDENTIALS.cs" />
     <Compile Include="Interop\BG_AUTH_CREDENTIALS_UNION.cs" />
     <Compile Include="Interop\BG_AUTH_SCHEME.cs" />
     <Compile Include="Interop\BG_AUTH_TARGET.cs" />
     <Compile Include="Interop\BG_BASIC_CREDENTIALS.cs" />
+    <Compile Include="Interop\BG_CERT_STORE_LOCATION.cs" />
+    <Compile Include="Interop\BG_COPY_FILE_ACLFLAGS.cs" />
     <Compile Include="Interop\BG_ERROR_CONTEXT.cs" />
+    <Compile Include="Interop\BG_HTTP_SECURITY_FLAGS.cs" />
+    <Compile Include="Interop\BG_JOB_ENABLE_PEERCACHING.cs" />
     <Compile Include="Interop\BG_JOB_PRIORITY.cs" />
     <Compile Include="Interop\BG_JOB_PROXY_USAGE.cs" />
     <Compile Include="Interop\BG_JOB_STATE.cs" />
     <Compile Include="Interop\BG_JOB_TYPE.cs" />
+    <Compile Include="Interop\BITSExtensionSetupFactory.cs" />
+    <Compile Include="Interop\BITSExtensionSetupFactoryClass.cs" />
     <Compile Include="Interop\BitsReturnValues.cs" />
     <Compile Include="Interop\BG_NOTIFY_FLAGS.cs" />
     <Compile Include="Interop\IBackgroundCopyCallback.cs" />
     <Compile Include="Interop\IBackgroundCopyError.cs" />
     <Compile Include="Interop\IBackgroundCopyFile.cs" />
+    <Compile Include="Interop\IBackgroundCopyFile2.cs" />
+    <Compile Include="Interop\IBackgroundCopyFile3.cs" />
     <Compile Include="Interop\IBackgroundCopyJob.cs" />
     <Compile Include="Interop\IBackgroundCopyJob2.cs" />
+    <Compile Include="Interop\IBackgroundCopyJob3.cs" />
+    <Compile Include="Interop\IBackgroundCopyJob4.cs" />
+    <Compile Include="Interop\IBackgroundCopyJobHttpOptions.cs" />
     <Compile Include="Interop\IBackgroundCopyManager.cs" />
+    <Compile Include="Interop\IBITSExtensionSetup.cs" />
+    <Compile Include="Interop\IBITSExtensionSetupFactory.cs" />
     <Compile Include="Interop\IEnumBackgroundCopyFiles.cs" />
     <Compile Include="Interop\IEnumBackgroundCopyJobs.cs" />
     <Compile Include="Interop\NativeMethods.cs" />
     <Compile Include="Interop\_BG_FILE_INFO.cs" />
     <Compile Include="Interop\_BG_FILE_PROGRESS.cs" />
+    <Compile Include="Interop\_BG_FILE_RANGE.cs" />
     <Compile Include="Interop\_BG_JOB_PROGRESS.cs" />
     <Compile Include="Interop\_BG_JOB_REPLY_PROGRESS.cs" />
     <Compile Include="Interop\_BG_JOB_TIMES.cs" />
@@ -123,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Interop\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Server\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
